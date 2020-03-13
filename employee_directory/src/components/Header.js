@@ -1,12 +1,9 @@
-import React from 'react';
-import "../styles/Header.css";
+import React from "react";
 
 function Header () {
-    return (
-      <div className="header">
-        <h1>Employee Directory</h1>
-      </div>
+    return(
+        <h1>Employee Details</h1>
     )
-  }
+};
 
 export default Header;
