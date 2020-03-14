@@ -11,6 +11,17 @@ function App() {
   const[users, setUsers]=useState();
   const[search, setSearch]=useState();
 
+  const handleInputChange = e => {
+    setSearch(e.target.value);
+    console.log(search)
+  };
+
+  useEffect(() => {
+    api.allUsers(15).then(res => {
+      setUsers(res.data.results);
+    }).catch(err => console.log(err))
+  },[]);
+
   return (
     <div className="App">
       <Main/>
