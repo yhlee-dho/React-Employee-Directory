@@ -1,9 +1,9 @@
-import React from "react";
+// import React from "react";
 
-function TableHeader({title}) {
-    return(
-        <th> {title} </th>
-    )
-};
+// function TableHeader({title}) {
+//     return(
+//         <th> {title} </th>
+//     )
+// };
 
-export default TableHeader;
+// export default TableHeader;
