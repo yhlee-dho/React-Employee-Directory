@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+/* header */
+.header {
+  padding: 15px 0;
+  background-color:lightblue;
+  width: 100%;
+  text-align: center;
+  border-bottom: 5px solid darkblue;
+  margin-bottom: 10px;
+}
+
+/* table */
+/* .table {
+
+} */
+
+/* footer */
+.footer {
+  padding: 8px 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  /* border-top: 1px solid lightgray; */
+  bottom: 0;
+  position: fixed;
+}
